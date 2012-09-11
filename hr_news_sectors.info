@@ -1,0 +1,11 @@
+name = Humanitarianresponse News Sectors
+description = Rename clusters to Sectors in News
+core = 7.x
+package = HR Sectors
+dependencies[] = hr_sectors
+dependencies[] = humanitarianresponse_news
+features[features_api][] = api:1
+features[features_override_items][] = field.node-news-field_clusters
+features[features_override_items][] = views_view.news
+features[features_overrides][] = field.node-news-field_clusters.field_instance|label
+features[features_overrides][] = views_view.news.display|page|display_options|filters|field_clusters_tid|expose|label

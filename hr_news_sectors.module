@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Humanitarianresponse News Sectors feature.
+ */
+
+include_once 'hr_news_sectors.features.inc';
